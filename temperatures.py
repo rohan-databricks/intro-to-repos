@@ -52,3 +52,16 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC #this is newly added cell
+
+# COMMAND ----------
+
+df.count()
+
+# COMMAND ----------
+
+
